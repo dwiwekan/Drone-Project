@@ -1,0 +1,22 @@
+# ROS 2 workspace build outputs
+build/
+install/
+log/
+
+# Flight logs and recorded data (keep out of git; share via releases or external storage)
+*.ulg
+*.bag
+*.db3
+*.mcap
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
